@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,124 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.worksheet-container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question p {
+  font-weight: bold;
+}
+
+.question label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.App-footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+.worksheet-container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.namefield {
+  padding: 20px;
+}
+
+.questions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.question {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.question p {
+  font-weight: bold;
+}
+
+.question label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.App-footer {
+  margin-top: 20px;
+  font-size: 14px;
 }
