@@ -61,16 +61,18 @@ function App() {
       <div className="max-w-4xl mx-auto p-6 bg-gray-100 rounded shadow-lg mt-6">
         <div className="mb-4">
           <label className="block mb-2 text-lg">
-            Name:
+            <span className="text-red-500">*</span> Name:
             <input
               type="text"
               value={name}
+              placeholder="Please enter your name"
               onChange={(e) => setName(e.target.value)}
               className="mt-1 p-2 border rounded w-full"
             />
           </label>
         </div>
         <div className="p-4 bg-white rounded shadow text-left">
+          <p className="font-bold mb-2">Question {currentQuestionIndex + 1} of {questions.length}</p>
           <p className="font-bold mb-2">{questions[currentQuestionIndex].question}</p>
           {questions[currentQuestionIndex].options.map((option) => (
             <label key={option} className="block mb-1">
